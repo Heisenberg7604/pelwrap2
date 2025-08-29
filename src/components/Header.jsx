@@ -128,8 +128,8 @@ const Header = ({ isDark, toggleTheme }) => {
                             <Link to="/" className="flex items-center cursor-pointer">
                                 <motion.div whileHover={{ scale: 1.02 }}>
                                     <img
-                                        src="assets/cropped-jeil-logo.jpg"
-                                        alt="JEIL Logo"
+                                        src="assets/cropped-PEL-NEW-LOGO-FINAL.png"
+                                        alt="PEL Logo"
                                         className="h-10 w-auto object-contain"
                                     />
                                 </motion.div>

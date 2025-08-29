@@ -4,10 +4,9 @@ import { Factory, Award, Package, Users, Target, Leaf, Shield, Globe } from 'luc
 
 const About = ({ isDark }) => {
     const stats = [
-        { label: "Years of Experience", value: "10+" },
-        { label: "Products Delivered", value: "1M+" },
+        { label: "Years of Experience", value: "25+" },
         { label: "Global Clients", value: "500+" },
-        { label: "Team Members", value: "100+" }
+        { label: "Team Members", value: "200+" }
     ];
 
     const values = [
@@ -59,7 +58,7 @@ const About = ({ isDark }) => {
             {/* Stats Section */}
             <section className={`py-16 ${isDark ? 'bg-gray-800' : 'bg-white'}`}>
                 <div className="container mx-auto px-4">
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
                         {stats.map((stat, index) => (
                             <motion.div
                                 key={stat.label}
