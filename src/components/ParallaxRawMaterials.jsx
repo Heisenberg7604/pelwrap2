@@ -1,7 +1,9 @@
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 
 const ParallaxRawMaterials = ({ isDark }) => {
+    const navigate = useNavigate();
     const containerRef = useRef(null);
     const { scrollYProgress } = useScroll({
         target: containerRef,
@@ -36,8 +38,8 @@ const ParallaxRawMaterials = ({ isDark }) => {
                             className="absolute top-[15%] right-[20%] w-[250px] h-[250px] z-20"
                         >
                             <img
-                                src="https://images.unsplash.com/photo-1615800098779-1be32e60cca3?auto=format&fit=crop&w=500"
-                                alt="HDPE Granules"
+                                 src="/assets/facility/facility3.jpg"
+                                alt="JEIL Plant"
                                 className="w-full h-full object-contain drop-shadow-2xl"
                             />
                         </motion.div>
@@ -48,8 +50,9 @@ const ParallaxRawMaterials = ({ isDark }) => {
                             className="absolute bottom-[20%] left-[10%] w-[200px] h-[200px] z-10"
                         >
                             <img
-                                src="https://images.unsplash.com/photo-1591880907925-b189df2da5d4?auto=format&fit=crop&w=500"
-                                alt="PP Pellets"
+                            src="/assets/facility/facility5.JPG"
+                                alt="JEIL Facility"
+                               
                                 className="w-full h-full object-contain drop-shadow-2xl"
                             />
                         </motion.div>
@@ -60,8 +63,8 @@ const ParallaxRawMaterials = ({ isDark }) => {
                             className="absolute top-[40%] left-[25%] w-[180px] h-[180px] z-30"
                         >
                             <img
-                                src="https://images.unsplash.com/photo-1620283085439-39aed3b5e4b2?auto=format&fit=crop&w=500"
-                                alt="PET Resin"
+                                src="/assets/facility/facility4.jpg"
+                                alt="JEIL Production"
                                 className="w-full h-full object-contain drop-shadow-2xl"
                             />
                         </motion.div>
@@ -83,16 +86,17 @@ const ParallaxRawMaterials = ({ isDark }) => {
                             transition={{ delay: 0.3, duration: 0.8 }}
                             className="text-xl text-white/90 mb-8 max-w-xl"
                         >
-                            Our raw material solutions range from standard polymers to specialized blends, from HDPE and PP to custom formulations designed for your specific application requirements.
+                            Discover the journey from fundamental materials to innovative solutions. See how our diverse polymer range transforms into the packaging solutions that power industries worldwide.
                         </motion.p>
                         <motion.button
                             initial={{ opacity: 0 }}
                             whileInView={{ opacity: 1 }}
                             transition={{ delay: 0.6 }}
                             whileHover={{ scale: 1.05 }}
+                            onClick={() => navigate('/gallery')}
                             className="px-8 py-3 bg-red-600 text-white rounded-lg text-lg font-medium hover:bg-red-700 transition-colors"
                         >
-                            Our Materials
+                            Explore Gallery
                         </motion.button>
                     </div>
                 </div>

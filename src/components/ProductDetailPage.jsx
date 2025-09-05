@@ -56,7 +56,6 @@ const ProductDetailPage = ({ product, isDark, onClose }) => {
         'stretch-wrap': {
             images: [
                 'assets/products/stretch-wrapping-film.png',
-                'assets/products/StretchWrap_ManualGrade.jpg',
                 'assets/products/front Images.jpg'
             ],
             fullDescription: "High performance stretch wrap (pallet wrap) film for wrapping boxes or items that have been accumulated on a pallet. Our lines of stretch films are made for performance and value.",
@@ -204,7 +203,6 @@ const ProductDetailPage = ({ product, isDark, onClose }) => {
         'pp-roofing': {
             images: [
                 'assets/products/PP_roofingsheet.jpg',
-                'assets/facility/bales.png',
             ],
             fullDescription: "Wide range of PP UV coated roofing sheets available in printed and textured designs. Offering multiple design options for various roofing applications.",
             features: [
@@ -361,27 +359,44 @@ const ProductDetailPage = ({ product, isDark, onClose }) => {
             images: [
                 'assets/products/SILAGE FILM.jpg'
             ],
-            fullDescription: "High performance bulk packaging film providing excellent protection and stability during storage and transit. Cost effective alternative to carton or paper packaging.",
+            fullDescription: "Silage film is an agricultural plastic film used to wrap and store forage crops like grass, hay, and corn. It creates an anaerobic environment that promotes fermentation, preserving the nutritional value of the forage for livestock feed.",
             features: [
-
+                "High performance bulk packaging",
+                "Excellent protection and stability",
+                "UV stabilized and resistant to weathering",
+                "High flexibility and durability"
             ],
             applications: [
-
-            ],
-            specifications: {
-
-            }
+                "Forage crops wrapping",
+                "Grass, hay, and corn storage",
+            ]
         },
         'upvc-roofing': {
             images: [
-                '/assets/products/upvcr-2.png',
-                '/assets/products/upvcr-3.png'
+                '/assets/products/03.png',
+                '/assets/products/04.png'
             ],
-            fullDescription: "Durable and weather-resistant roofing solution.",
-            features: [],
-            applications: [],
+            fullDescription: "High-quality UPVC roofing sheets designed for durability and superior thermal, sound, and weather resistance. Manufactured using advanced technology from premium grade polymer and chemical formulation, these sheets provide excellent performance and protection for modern structures.",
+            features: [
+                "Superior thermal insulation",
+                "Excellent sound insulation",
+                "Weather-resistant resin blocks UV radiation",
+                "Reduces heat conductivity",
+                "High durability and chemical corrosion resistance",
+                "Optimum strength and rigidity from modified PVC"
+            ],
+            applications: [
+                "Industrial roofing",
+                "Residential roofing",
+                "Sound-insulated structures",
+                "Weatherproof sheds",
+                "Corrosion-resistant buildings"
+            ],
             specifications: {
-
+                Colours: "Red, Orange, Blue & Dark Grey",
+                Width: "1050mm, 1120mm",
+                Length: "8/10/12/14 Feet & Customized",
+                Thickness: "1.5/2/2.5/3mm"
             }
         },
         'grow-bag': {
@@ -389,12 +404,19 @@ const ProductDetailPage = ({ product, isDark, onClose }) => {
                 'assets/products/grow-bag.jpg',
                 'assets/products/grow-bag2.jpg'
             ],
-            fullDescription: "Durable and weather-resistant roofing solution.",
-            features: [],
-            applications: [],
-            specifications: {
-
-            }
+            fullDescription: "Grow bags help gardeners achieve healthier plants thanks to better aeration, improved drainage, and cooler root temperatures. These features prevent overwatering, reduce stress from heat, and promote strong root development, leading to more robust growth. Plus, their lightweight design and portability make them easy to move and store, making gardening more convenient and enjoyable for everyone",
+            features: [
+                "Aeration for healthier roots",
+                "Improved drainage to prevent overwatering",
+                "Cooler root temperatures for robust growth",
+                "Lightweight and portable design"
+            ],
+            applications: [
+                "Gardening and horticulture",
+                "Urban farming",
+                "Container planting",
+                "Home gardening"
+            ]
         },
         'mulching-film': {
             images: [

@@ -123,7 +123,7 @@ const Home = ({ isDark }) => {
                             className="relative"
                         >
                             <img
-                                src="https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=1200"
+                                src="/assets/facility/facility9.jpg"
                                 alt="Manufacturing Facility"
                                 className="rounded-lg shadow-2xl"
                             />
