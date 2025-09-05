@@ -45,7 +45,7 @@ const Home = ({ isDark }) => {
                         className="text-center mb-16"
                     >
                         <h2 className={`text-3xl md:text-4xl font-bold mb-6 ${isDark ? 'text-white' : 'text-gray-900'}`}>
-                            Why Choose JEIL?
+                            Why Choose PEL?
                         </h2>
                         <p className={`text-lg max-w-2xl mx-auto ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
                             We combine innovation with expertise to deliver packaging solutions that exceed expectations
