@@ -131,21 +131,21 @@ const Footer = ({ isDark }) => {
                             <li className="flex items-center">
                                 <Mail className="w-4 h-4 sm:w-5 sm:h-5 mr-2 sm:mr-3 text-red-500 flex-shrink-0" />
                                 <a
-                                    href="mailto:info@jeil.in"
+                                    href="mailto:info@pelwrap.com"
                                     className="text-xs sm:text-sm hover:text-red-400 transition-colors cursor-pointer"
                                 >
-                                    info@jeil.in
+                                    info@peelwrap.com
                                 </a>
                             </li>
                             <li className="flex items-center">
                                 <Globe className="w-4 h-4 sm:w-5 sm:h-5 mr-2 sm:mr-3 text-red-500 flex-shrink-0" />
                                 <a
-                                    href="https://www.jeil.in"
+                                    href="https://www.pelwrap.com"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-xs sm:text-sm hover:text-red-400 transition-colors cursor-pointer"
                                 >
-                                    www.jeil.in
+                                    www.pelwrap.com
                                 </a>
                             </li>
                         </ul>
