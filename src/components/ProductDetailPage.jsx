@@ -29,7 +29,6 @@ const ProductDetailPage = ({ product, isDark, onClose }) => {
         'pp-woven': {
             images: [
                 'assets/products/woven-sack.jpg',
-                'assets/products/fabric-roll3.jpg',
                 'assets/products/woven3.jpg',
                 'assets/products/HDPE_PP WOVEN FABRIC AND BAGS _B.jpg',
                 'assets/products/HDPE_PP WOVEN FABRIC AND BAGS _C.jpg'

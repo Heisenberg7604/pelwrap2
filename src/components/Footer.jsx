@@ -96,7 +96,7 @@ const Footer = ({ isDark }) => {
                                     className="text-xs sm:text-sm hover:text-red-400 transition-colors cursor-pointer"
                                 >
                                     C1B - 1034 to 1037 GIDC Industrial Estate,
-                                    Ankleshwar - 393 002, Gujarat - INDIA
+                                    Ankleshwar - 393 002, Gujarat, India
                                 </a>
                             </li>
                             <li className="flex items-start">
@@ -134,7 +134,7 @@ const Footer = ({ isDark }) => {
                                     href="mailto:info@pelwrap.com"
                                     className="text-xs sm:text-sm hover:text-red-400 transition-colors cursor-pointer"
                                 >
-                                    info@peelwrap.com
+                                    info@pelwrap.com
                                 </a>
                             </li>
                             <li className="flex items-center">
@@ -158,15 +158,13 @@ const Footer = ({ isDark }) => {
                             <li className="flex items-start">
                                 <MapPin className="w-4 h-4 sm:w-5 sm:h-5 mr-2 sm:mr-3 text-red-500 flex-shrink-0 mt-1" />
                                 <a
-                                    href={`https://www.google.com/maps/search/?api=1&query=${encodeAddressForMaps('Survey No: 40/1, Shed No-1, Dadra Village, Dadra Nagar Haveli, SILVASSA, U.T. Pin - 396 193, INDIA')}`}
+                                    href="https://www.google.com/maps/dir//Plot+4202,+G+I+D+C,+G+I+D+C,+Ankleshwar,+Gujarat+393002/@21.613745,72.9449824,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3be023e690d70849:0x46260751fb806d8f!2m2!1d73.027384!2d21.6137653?entry=ttu&g_ep=EgoyMDI1MDkwOS4wIKXMDSoASAFQAw%3D%3D"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-xs sm:text-sm hover:text-red-400 transition-colors cursor-pointer"
                                 >
-                                    Survey No: 40/1, Shed No-1,<br />
-                                    Dadra Village, Dadra Nagar Haveli,<br />
-                                    SILVASSA.<br />
-                                    U.T. Pin - 396 193. INDIA
+                                    Plot No. 4202, G.I.D.C. Industrial Estate,
+                                    Ankleshwar - 393 002, Gujarat, India.
                                 </a>
                             </li>
                             <li className="flex items-start">
