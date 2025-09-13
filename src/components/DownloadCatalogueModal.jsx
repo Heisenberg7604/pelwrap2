@@ -115,8 +115,8 @@ const DownloadCatalogueModal = ({ isOpen, onClose, productName, isDark }) => {
                                 onChange={handleInputChange}
                                 required
                                 className={`w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent ${isDark
-                                        ? 'bg-gray-700 border-gray-600 text-white placeholder-gray-400'
-                                        : 'bg-white border-gray-300 text-gray-900 placeholder-gray-500'
+                                    ? 'bg-gray-700 border-gray-600 text-white placeholder-gray-400'
+                                    : 'bg-white border-gray-300 text-gray-900 placeholder-gray-500'
                                     }`}
                                 placeholder="Enter your full name"
                             />
@@ -134,8 +134,8 @@ const DownloadCatalogueModal = ({ isOpen, onClose, productName, isDark }) => {
                                 onChange={handleInputChange}
                                 required
                                 className={`w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent ${isDark
-                                        ? 'bg-gray-700 border-gray-600 text-white placeholder-gray-400'
-                                        : 'bg-white border-gray-300 text-gray-900 placeholder-gray-500'
+                                    ? 'bg-gray-700 border-gray-600 text-white placeholder-gray-400'
+                                    : 'bg-white border-gray-300 text-gray-900 placeholder-gray-500'
                                     }`}
                                 placeholder="Enter your company name"
                             />
@@ -153,8 +153,8 @@ const DownloadCatalogueModal = ({ isOpen, onClose, productName, isDark }) => {
                                 onChange={handleInputChange}
                                 required
                                 className={`w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent ${isDark
-                                        ? 'bg-gray-700 border-gray-600 text-white placeholder-gray-400'
-                                        : 'bg-white border-gray-300 text-gray-900 placeholder-gray-500'
+                                    ? 'bg-gray-700 border-gray-600 text-white placeholder-gray-400'
+                                    : 'bg-white border-gray-300 text-gray-900 placeholder-gray-500'
                                     }`}
                                 placeholder="Enter your email address"
                             />
@@ -172,8 +172,8 @@ const DownloadCatalogueModal = ({ isOpen, onClose, productName, isDark }) => {
                                 onChange={handleInputChange}
                                 required
                                 className={`w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent ${isDark
-                                        ? 'bg-gray-700 border-gray-600 text-white placeholder-gray-400'
-                                        : 'bg-white border-gray-300 text-gray-900 placeholder-gray-500'
+                                    ? 'bg-gray-700 border-gray-600 text-white placeholder-gray-400'
+                                    : 'bg-white border-gray-300 text-gray-900 placeholder-gray-500'
                                     }`}
                                 placeholder="Enter your contact number"
                             />
@@ -192,8 +192,8 @@ const DownloadCatalogueModal = ({ isOpen, onClose, productName, isDark }) => {
                                     onChange={handleInputChange}
                                     required
                                     className={`w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent ${isDark
-                                            ? 'bg-gray-700 border-gray-600 text-white placeholder-gray-400'
-                                            : 'bg-white border-gray-300 text-gray-900 placeholder-gray-500'
+                                        ? 'bg-gray-700 border-gray-600 text-white placeholder-gray-400'
+                                        : 'bg-white border-gray-300 text-gray-900 placeholder-gray-500'
                                         }`}
                                     placeholder="City"
                                 />
@@ -211,8 +211,8 @@ const DownloadCatalogueModal = ({ isOpen, onClose, productName, isDark }) => {
                                     onChange={handleInputChange}
                                     required
                                     className={`w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent ${isDark
-                                            ? 'bg-gray-700 border-gray-600 text-white placeholder-gray-400'
-                                            : 'bg-white border-gray-300 text-gray-900 placeholder-gray-500'
+                                        ? 'bg-gray-700 border-gray-600 text-white placeholder-gray-400'
+                                        : 'bg-white border-gray-300 text-gray-900 placeholder-gray-500'
                                         }`}
                                     placeholder="State"
                                 />
@@ -231,8 +231,8 @@ const DownloadCatalogueModal = ({ isOpen, onClose, productName, isDark }) => {
                                 onChange={handleInputChange}
                                 required
                                 className={`w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent ${isDark
-                                        ? 'bg-gray-700 border-gray-600 text-white placeholder-gray-400'
-                                        : 'bg-white border-gray-300 text-gray-900 placeholder-gray-500'
+                                    ? 'bg-gray-700 border-gray-600 text-white placeholder-gray-400'
+                                    : 'bg-white border-gray-300 text-gray-900 placeholder-gray-500'
                                     }`}
                                 placeholder="Enter your country"
                             />
@@ -243,8 +243,8 @@ const DownloadCatalogueModal = ({ isOpen, onClose, productName, isDark }) => {
                             type="submit"
                             disabled={isSubmitting}
                             className={`w-full py-3 px-4 rounded-lg font-semibold transition-colors ${isSubmitting
-                                    ? 'bg-gray-400 cursor-not-allowed'
-                                    : 'bg-red-600 hover:bg-red-700 text-white'
+                                ? 'bg-gray-400 cursor-not-allowed'
+                                : 'bg-red-600 hover:bg-red-700 text-white'
                                 }`}
                         >
                             {isSubmitting ? 'Sending...' : 'Download Catalogue'}
