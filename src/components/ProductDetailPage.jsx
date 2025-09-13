@@ -31,7 +31,6 @@ const ProductDetailPage = ({ product, isDark, onClose }) => {
         'pp-woven': {
             images: [
                 'assets/products/woven-sack.jpg',
-                'assets/products/fabric-roll3.jpg',
                 'assets/products/woven3.jpg',
                 'assets/products/HDPE_PP WOVEN FABRIC AND BAGS _B.jpg',
                 'assets/products/HDPE_PP WOVEN FABRIC AND BAGS _C.jpg'
@@ -630,8 +629,8 @@ const ProductDetailPage = ({ product, isDark, onClose }) => {
                                 whileHover={{ scale: 1.05 }}
                                 onClick={() => setIsDownloadModalOpen(true)}
                                 className={`px-4 sm:px-6 py-3 rounded-lg font-semibold transition-colors flex items-center justify-center space-x-2 text-sm sm:text-base ${isDark
-                                        ? 'bg-red-600 hover:bg-red-700 text-white'
-                                        : 'bg-red-600 hover:bg-red-700 text-white'
+                                    ? 'bg-red-600 hover:bg-red-700 text-white'
+                                    : 'bg-red-600 hover:bg-red-700 text-white'
                                     }`}
                             >
                                 <Download className="w-4 h-4 sm:w-5 sm:h-5" />
