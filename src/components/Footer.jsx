@@ -197,7 +197,7 @@ const Footer = ({ isDark }) => {
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex justify-center items-center gap-3">
                         <p className="text-xs sm:text-sm text-gray-500 text-center">
-                            &copy; {currentYear} JEIL. All rights reserved.
+                            &copy; {currentYear} PEL. All rights reserved.
                         </p>
                         <a
                             href="https://www.linkedin.com/in/darshan-dorik-07a300259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
