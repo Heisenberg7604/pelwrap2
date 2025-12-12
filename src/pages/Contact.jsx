@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Clock, Send, CheckCircle, ExternalLink } from 'lucide-react';
+import OurNetworkcard from '../components/OurNetworkcard';
 
 const Contact = ({ isDark = false }) => {
     const [formData, setFormData] = useState({
@@ -33,8 +34,8 @@ const Contact = ({ isDark = false }) => {
         {
             icon: MapPin,
             title: 'Address',
-            details: 'C1B – 1034 to 1037 GIDC Industrial Estate, Ankleshwar – 393 002, Gujarat – INDIA',
-            link: 'https://maps.google.com/?q=C1B+1034+to+1037+GIDC+Industrial+Estate+Ankleshwar+393002+Gujarat+INDIA',
+            details: 'Plot No. 4202, GIDC, Ankleshwar, Gujarat 393002',
+            link: 'https://share.google.com/pl0ND8jfuP33wxDYD',
             linkType: 'external'
         },
         {
@@ -278,6 +279,36 @@ const Contact = ({ isDark = false }) => {
                                     </div>
                                 </div>
                             ))}
+                        </div>
+                    </div>
+                </div>
+
+                {/* Our Network Section */}
+                <div className="mt-16 sm:mt-20">
+                    <h2 className={`text-2xl sm:text-3xl lg:text-4xl font-bold text-center mb-8 sm:mb-12 ${isDark ? 'text-white' : 'text-gray-800'}`}>
+                        Our Network
+                    </h2>
+                    <div className="flex justify-center">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 max-w-4xl">
+                            <OurNetworkcard
+                                title="Ankleshwar, Gujarat"
+                                address="Plot No. 4202, GIDC, Ankleshwar, Gujarat 393002"
+                                phone1="02646 238 757"
+                                phone2=""
+                                phone3=""
+                                googleMapsUrl="https://share.google.com/pl0ND8jfuP33wxDYD"
+                                isDark={isDark}
+                            />
+                            <OurNetworkcard
+                                title="Dahej, Gujarat"
+                                address="Plot N. D-2/E/21/14, Dahej-II Industrial Estate, Tal. Vagra, Dist. Bharuch - 392110, Gujarat, India"
+                                phone1=""
+                                phone2=""
+                                linkText=""
+                                linkUrl="#contact"
+                                googleMapsUrl="https://share.google.com/AnK2hnHq2PDyc3PIn"
+                                isDark={isDark}
+                            />
                         </div>
                     </div>
                 </div>
