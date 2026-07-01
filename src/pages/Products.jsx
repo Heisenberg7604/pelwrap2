@@ -97,7 +97,7 @@ const Products = ({ isDark }) => {
             id: 'paper-angle-board',
             name: 'Paper Angle Board & Edge Protectors',
             description: 'High strength Kraft paper angle boards that protect edges and corners of packaged products',
-            image: 'assets/products/angle-board-1.jpg'
+            image: 'assets/products/angle-board-3.jpg'
         },
         {
             id: 'slip-sheet',

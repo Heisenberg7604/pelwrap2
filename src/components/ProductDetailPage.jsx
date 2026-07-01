@@ -254,8 +254,7 @@ const ProductDetailPage = ({ product, isDark, onClose }) => {
         'slip-sheet': {
             images: [
                 'assets/products/slip-sheet-1.jpg',
-                'assets/products/slip-sheet-2.png',
-                'assets/products/slip-sheet-3.png',
+                'assets/products/slip-sheet-2.jpg',
             ],
             fullDescription: "Slip sheets are used for pallet-less material handling. They are a replacement for heavy, bulky and expensive plastic or wooden pallets, being considerably thinner and lighter in weight while delivering reliable load handling.",
             features: [
@@ -272,8 +271,8 @@ const ProductDetailPage = ({ product, isDark, onClose }) => {
                 "Container loading optimization"
             ],
             specifications: {
-                "Sizes": "Customizable",
-                "Thickness": "3/4/5/6 mm",
+                "Width": "Customizable",
+                "Thickness": "750 to 1200 microns",
                 "Length": "Customizable"
             }
         },
@@ -475,10 +474,11 @@ const ProductDetailPage = ({ product, isDark, onClose }) => {
         },
         'paper-angle-board': {
             images: [
-                'assets/products/angle-board-1.jpg',
-                'assets/products/angle-board-2.jpg',
-                'assets/products/angle-board-3.png',
-                'assets/products/angle-board-4.png'
+                'assets/products/angle-board.png',
+                'assets/products/angle-board-3.jpg',
+                'assets/products/angle-board-4.jpg',
+                'assets/products/edge-guard-2.jpg',
+                'assets/products/edge-guard-4.jpg'
             ],
             fullDescription: "Angle Boards & Edge Protectors are manufactured from multi-layered high strength Kraft paper bonded together to form a rigid 90° angle. Designed to protect the edges and corners of packaged products during handling and transportation.",
             features: [
