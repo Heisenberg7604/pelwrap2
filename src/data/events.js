@@ -27,29 +27,6 @@ const photos = (slug, count, alts = {}) =>
  */
 export const events = [
     {
-        id: 'plastindia-2026',
-        slug: 'plastindia-2026',
-        title: 'PlastIndia 2026',
-        kind: 'Exhibition',
-        date: '5–10 February 2026',
-        stand: '', // TODO(content): add the stall number
-        venue: 'Bharat Mandapam',
-        location: 'New Delhi, India',
-        description:
-            'Six days on the floor at India\'s largest plastics exhibition. The stall carried the ' +
-            'full extrusion range — uPVC and PP roofing sheets, PVC foam sheets and WPC door ' +
-            'panels — with samples out on the counter for converters, distributors and export ' +
-            'buyers to handle.',
-        photos: photos('plastindia-2026', 6, {
-            '01': 'Technical discussion with visitors at the stall counter',
-            '02': 'Visitors reviewing the product range',
-            '03': 'Product samples on display',
-            '04': 'The stall front at PlastIndia 2026',
-            '05': 'Full product wall along the stall',
-            '06': 'Film and sheet samples on the display shelves, with the product range board alongside',
-        }),
-    },
-    {
         id: 'ankleshwar-industrial-expo-2026',
         slug: 'aia-expo-2026',
         title: 'Ankleshwar Industrial Expo 2026',

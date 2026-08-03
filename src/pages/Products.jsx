@@ -107,7 +107,7 @@ const Products = ({ isDark }) => {
         },
         {
             id: 'upvc-foam-sheet',
-            name: 'PVC / WPC Foam Sheet',
+            name: 'uPVC / WPC Foam Sheet',
             description: 'Waterproof, termite-proof foam boards for advertising, furniture and construction',
             image: 'assets/products/upvc-foam-1.png'
         },
