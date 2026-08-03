@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Products from './pages/Products';
 import Gallery from './pages/Gallery';
+import Events from './pages/Events';
 import Contact from './pages/Contact';
 import NotFoundPage from './components/NotFoundPage';
 import AdminPanel from './pages/AdminPanel';
@@ -58,6 +59,15 @@ function App() {
                                 exit={{ opacity: 0 }}
                             >
                                 <Gallery isDark={isDark} />
+                            </motion.div>
+                        } />
+                        <Route path="/events" element={
+                            <motion.div
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 }}
+                                exit={{ opacity: 0 }}
+                            >
+                                <Events isDark={isDark} />
                             </motion.div>
                         } />
                         <Route path="/contact" element={

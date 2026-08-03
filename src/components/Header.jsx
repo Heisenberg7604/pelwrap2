@@ -142,6 +142,7 @@ const Header = ({ isDark, toggleTheme }) => {
                                     { path: '/about', label: 'About Us' },
                                     { path: '/products', label: 'Products' },
                                     { path: '/gallery', label: 'Gallery' },
+                                    { path: '/events', label: 'Events' },
                                     { path: '/contact', label: 'Contact Us' }
                                 ].map((item) => (
                                     <motion.div key={item.path} whileHover={{ y: -2 }}>

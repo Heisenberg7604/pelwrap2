@@ -436,7 +436,7 @@ const ProductDetailPage = ({ product, isDark, onClose }) => {
                 'assets/products/upvc-foam-2.png',
                 'assets/products/upvc-foam-3.png',
             ],
-            fullDescription: "We are a leading Manufacturer, Exporter and Supplier of premium-quality UPVC Foam Sheets, including Colored and Plain PVC/WPC Foam Boards. Manufactured using high-grade raw materials and advanced technology, our boards offer excellent strength, durability and finish while meeting diverse customer requirements across various industries.",
+            fullDescription: "We are a leading Manufacturer, Exporter and Supplier of premium-quality PVC Foam Sheets, including Colored and Plain PVC/WPC Foam Boards. Manufactured using high-grade raw materials and advanced technology, our boards offer excellent strength, durability and finish while meeting diverse customer requirements across various industries.",
             features: [
                 "100% Water Proof, Termite Proof, Borer Proof and Rust Proof",
                 "100% Weather resistant and Fire Retardant",

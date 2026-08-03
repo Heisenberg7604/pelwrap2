@@ -32,3 +32,6 @@ pnpm-debug.log*
 
 # Source documents (not part of the app)
 *.docx
+
+# Original event photographs (optimized copies live in public/assets/events)
+source-photos/

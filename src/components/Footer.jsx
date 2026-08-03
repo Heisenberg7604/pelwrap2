@@ -48,6 +48,7 @@ const Footer = ({ isDark }) => {
                                 { name: 'About Us', path: '/about' },
                                 { name: 'Products', path: '/products' },
                                 { name: 'Gallery', path: '/gallery' },
+                                { name: 'Events', path: '/events' },
                                 { name: 'Contact', path: '/contact' }
                             ].map((link) => (
                                 <li key={link.name}>
